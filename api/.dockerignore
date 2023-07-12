@@ -1,0 +1,2 @@
+# pour que le fichier .env ne fasse pas parti de l'image finale après le build
+.env

@@ -1,0 +1,4 @@
+FROM nginx:latest
+# path où stocker le fichier de conf sur image nginx
+COPY ./conf/dev.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
